@@ -491,13 +491,11 @@ body.hold {
 .col__icon {
   text-align: center;
   display: block;
-  max-width: 48px;
-  height: 48px;
 }
 
 .col__icon img {
-  width: 100%;
-  height: 100%;
+  width: 48px;
+  height: 48px;
 }
 
 @media (min-width: 840px) {
@@ -508,13 +506,11 @@ body.hold {
 
 .col__icon-green {
   display: none;
-  max-width: 48px;
-  height: 48px;
 }
 
 .col__icon-green img {
-  width: 100%;
-  height: 100%;
+  width: 48px;
+  height: 48px;
 }
 
 @media (min-width: 840px) {
@@ -1582,14 +1578,9 @@ body.hold {
   gap: 20px;
 }
 
-.footer__social a {
+.footer__social a img {
   width: 24px;
   height: 24px;
-}
-
-.footer__social a img {
-  width: 100%;
-  height: 100%;
 }
 
 .nav-icon-1 {
