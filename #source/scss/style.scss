@@ -333,12 +333,24 @@ body {
    &__icon {
       text-align: center;
       display: block;
+      max-width: 48px;
+      height: 48px;
+      img {
+         width: 100%;
+         height: 100%;
+      }
       @media(min-width: 840px) {
          display: none;
       }
    }
    &__icon-green {
       display: none; 
+      max-width: 48px;
+      height: 48px;
+      img {
+         width: 100%;
+         height: 100%;
+      }
       @media(min-width: 840px) {
          display: block;
       }
@@ -1073,6 +1085,7 @@ body {
          line-height: 24px;
          letter-spacing: 0.2px;
          color: #FFFFFF;
+         
       }
    }
 }
@@ -1097,6 +1110,14 @@ body {
       align-items: center;
       justify-content: center;
       gap: 20px;
+      a {
+         width: 24px;
+         height: 24px;
+         img {
+            width: 100%;
+            height: 100%;
+         }
+      }
    }
 }
 
