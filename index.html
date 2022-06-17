@@ -12,8 +12,14 @@
 <body>
    <div class="wrapper">
       <header class="header">
-         <div class="header__fullscreen"><img src="img/background2.png" alt=""></div>
-
+         <picture class="header__fullscreen">
+            <source srcset="img/background.webp" type="image/webp">
+            <img src="img/background.png" alt="">
+         </picture>
+         <picture class="header__fullscreen header__fullscreen-mob">
+            <source srcset="img/background2.webp" type="image/webp">
+            <img src="img/background2.png" alt="">
+         </picture>
          <div class="header__top">
             <div class="header__brand">Relvise</div>
             <div class="header__menu">
