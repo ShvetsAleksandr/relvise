@@ -169,7 +169,7 @@ body.hold {
 }
 
 .header__fullscreen {
-  display: block;
+  display: none;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -188,10 +188,21 @@ body.hold {
 
 @media (min-width: 768px) {
   .header__fullscreen {
+    display: block;
     opacity: 1;
     -o-object-fit: cover;
        object-fit: cover;
     padding: 0;
+  }
+}
+
+.header__fullscreen-mob {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .header__fullscreen-mob {
+    display: none;
   }
 }
 

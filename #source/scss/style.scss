@@ -78,7 +78,7 @@ body {
    background: #FAFAFA;
 
    &__fullscreen {
-      display: block;
+      display: none;
       opacity: 0.5;
       position: absolute;
       top: 0;
@@ -93,9 +93,18 @@ body {
       }
 
       @media (min-width: 768px) {
+         display: block;
          opacity: 1;
          object-fit: cover;
          padding: 0;
+      }
+   }
+
+   &__fullscreen-mob {
+      display: block;
+      @media (min-width: 768px) {
+         display: none;
+         
       }
    }
 
